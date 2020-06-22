@@ -1,6 +1,6 @@
 # Troubleshooting
 
-[Volver](./index.md)
+[Volver](./instalacion_entorno.md)
 
 ## Posibles problemas: 
 - Para crear los assets para buildear: 

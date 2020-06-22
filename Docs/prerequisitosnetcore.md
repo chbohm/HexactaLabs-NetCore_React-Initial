@@ -1,6 +1,6 @@
 # Prerequisitos
 
-[Volver](./index.md)
+[Volver](./instalacion_entorno.md)
 
 ## Backend
 

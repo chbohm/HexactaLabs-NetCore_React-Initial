@@ -1,6 +1,6 @@
 # Prerequisitos
 
-[Volver](./index.md)
+[Volver](./instalacion_entorno.md)
 
 ## Frontend
 
@@ -11,7 +11,7 @@ Nota: NodeJs ya viene con `npm`. Este es el gestor de paquetes que se usa princi
 2. Instalar un IDE. Cualquiera basta y en general va en gusto de cada uno. Si no se conoce/usó ninguno, `VSCode` se suele usar mucho en el terreno de frontend.
 En el siguiente apartado, tenemos como utilizar __VSCode__ para debuggear en React
 
-3. (opcional) Instalar en el navegador las extenciones `React Developer Tools` y `Redux DevTools`. Si bien no son necesarios para desarollar ayudan a la hora de debuggear código de React/Redux respectívamente.
+3. (opcional) Instalar en el navegador las extenciones `React Developer Tools` y `Redux DevTools`. Si bien no son necesarios para desarollar, ayudan a la hora de debuggear código de React/Redux respectivamente.
 
 ### Visual Studio code
 1. Instalar Visual Studio Code [Link](https://code.visualstudio.com/)
