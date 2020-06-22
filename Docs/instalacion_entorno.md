@@ -1,12 +1,12 @@
 [Volver](../README.md)
 
 ## Instalación de entorno
-Vamos a utilizar __VSCode__ como herramienta de desarrollo y _Git_ para el control de versionado de nuestro código y _Github_ para almacenar dicho código en la nube. Existen otros como Bitbucket, Gitlab, Azure Devops. Todos ellos utilizan Git como base para realizar todas las operaciones.
+Vamos a utilizar __VSCode__ como herramienta de desarrollo y __Git__ para el control de versionado de nuestro código y __Github__ para almacenar dicho código en la nube. Existen otros como Bitbucket, Gitlab, Azure Devops. Todos ellos utilizan Git como base para realizar todas las operaciones.
 Cada vez que avancen en las etapas, tendrán que descargar una nueva base de código. 
 
-1. Instalar Git [aquí](https://git-scm.com/downloads). Aquí te damos una pequeña [introducción a Git](./index_git.md)
-1. Instalar Visual Studio Code. [Link](https://code.visualstudio.com/)
-1. Crear una carpeta __HxLabs__.
+1. Instalar [Git](https://git-scm.com/downloads). Puedes leer una pequeña [introducción a Git](./index_git.md).
+1. Instalar [Visual Studio Code](https://code.visualstudio.com/).
+1. Crear la carpeta __HxLabs__.
 1. Ir al [proyecto github](https://github.com/chbohm/HexactaLabs-NetCore_React-Initial) y crear un "fork" desde el botón
 ![forks](./images/forks_example.png)
 1. Copiar al portapapeles la url del fork.
