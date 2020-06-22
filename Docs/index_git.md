@@ -1,30 +1,4 @@
-# Guía git
-Para trabajar vamos a utilizar la herramienta Git, que es un VCS (version control system) que se descarga [aquí](https://git-scm.com/downloads).
-Github será el servicio que almacenará nuestros proyectos en la nube, existen otros como Bitbucket, Gitlab, Azure Devops.
-
-1. Instalar Visual Studio Code. [Link](https://code.visualstudio.com/)
-1. Crear una carpeta __HxLabs__ y abrir Visual Studio Code en la misma
-1. Ir a la web del proyecto correspondiente y crear un "fork" desde el botón
-![forks](./images/forks_example.png)
-
-1. Clonar el proyecto forkeado de GitHub en Visual Studio Code
-	1. Copiar la URL del fork
-	1. CTRL + SHIFT + P y escribir "git clone"
-	1. Agregar la URL del proyecto y seleccionar una carpeta.
-	1. Se puede clonar directamente en la carpeta haciendo *git clone "url"* desde una linea de comandos
-    1. Repetir estos pasos para cada proyecto.
-1. Luego, cuando comience la *etapa X* ir a la carpeta correspondiente y abrir una nueva instancia de VSCode, o directamente desde Code, *File/Open Folder*.
-
-Debería quedar algo semejante a esto: 
-
-![folders](./images/folders_git.png)
-
-## Esquema de trabajo
-Trabajar con git es sencillo por medio de VSCode y GitLens. 
-Atlassian tiene un tutorial bastante completo de como trabajar [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). 
-
-![](./images/git_flow.png)
-
+## Introducción rápida a git
 Los comandos más comunes son: 
 ```
 git clone
@@ -44,5 +18,10 @@ git push origin master
 
 
 ```
+
+Trabajar con git es sencillo por medio de VSCode y GitLens. 
+A su vez, Atlassian tiene un tutorial bastante completo de como trabajar [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). 
+
+![](./images/git_flow.png)
 
 
