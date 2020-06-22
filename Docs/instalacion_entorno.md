@@ -1,8 +1,7 @@
 [Volver](../README.md)
 
-## Instalacón de entorno
-Vamos a utilizar __VSCode__ como herramienta de desarrollo y Git para el control de versionado de nuestro código.
-A su vez, vamos a utlizar Github para almacenar nuestro código en la nube, existen otros como Bitbucket, Gitlab, Azure Devops. Todos ellos utilizan Git como base para realizar todas las operaciones.
+## Instalación de entorno
+Vamos a utilizar __VSCode__ como herramienta de desarrollo y _Git_ para el control de versionado de nuestro código y _Github_ para almacenar dicho código en la nube. Existen otros como Bitbucket, Gitlab, Azure Devops. Todos ellos utilizan Git como base para realizar todas las operaciones.
 Cada vez que avancen en las etapas, tendrán que descargar una nueva base de código. 
 
 1. Instalar Git [aquí](https://git-scm.com/downloads). Aquí te damos una pequeña [introducción a Git](./index_git.md)
