@@ -18,8 +18,8 @@ El curso tiene diferentes etapas y nivelaciones con este formato:
 * Manejo básico de bases de datos
 * Conocimientos básicos sobre ORMs
 
-## [Documentación](./Docs/index.md)
-Seguir la documentación para instalar las herramientas necesarias y comprobar que todo esté funcionando.
+## Instalación de entorno
+Seguir la [documentación](./Docs/instalacion_entorno.md) para instalar las herramientas necesarias y comprobar que todo esté funcionando correctamente.
 
 # Actividad Inicial
 Para el trabajo inicial, se necesita crear un servicio backend que se conecte a la base de datos local para obtener información y brindar operaciones CRUD de la entidad __Provider__.
