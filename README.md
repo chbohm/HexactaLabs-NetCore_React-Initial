@@ -24,9 +24,9 @@ El curso tiene diferentes etapas y nivelaciones con este formato:
 Seguir la [documentación](./Docs/instalacion_entorno.md) para instalar las herramientas necesarias y comprobar que todo esté funcionando correctamente.
 
 ## Conceptos iniciales de las tecnologías a utilizar
-1. [Introducción a React](./react.md)
-1. [Introducción a Redux](./redux.md)
-1. [Introducción a NetCore](./netcore.md)
+1. [Introducción a React](./Docs/react.md)
+1. [Introducción a Redux](./Docs/redux.md)
+1. [Introducción a NetCore](./Docs/netcore.md)
 
 ## Levantando el Front end
 
