@@ -4,7 +4,7 @@
 
 ## Introducción
 
-[NET Core](https://docs.microsoft.com/es-es/dotnet/core/) es un Framework de código abierto creado por Microsoft, que nos proporciona herramientas para el desarrollo de aplicaciones multiplataforma .lo que significa que podemos desarrollar y ejecutar una aplicación en varios sistemas operativos, como Linux, Windows, iOS. Se pueden desarrollar en .Net Core: aplicaciones de escritorio, aplicaciones web, aplicaciones móviles, juegos, inteligencia artificial, etc.
+[NET Core](https://docs.microsoft.com/es-es/dotnet/core/) es un Framework de código abierto creado por Microsoft, que nos proporciona herramientas para el desarrollo de aplicaciones multiplataforma lo que significa que podemos desarrollar y ejecutar una aplicación en varios sistemas operativos, como Linux, Windows, iOS. Se pueden desarrollar en .Net Core: aplicaciones de escritorio, aplicaciones web, aplicaciones móviles, juegos, inteligencia artificial, etc.
 
 [ASP.NET Core](https://docs.microsoft.com/es-es/aspnet/core/?view=aspnetcore-3.1) es un marco de trabajo para desarrollar aplicaciones web multiplataforma compilado con .Net Core.
 
@@ -37,7 +37,7 @@ Microsoft.AspNetCore.Mvc proporciona atributos que se pueden usar para configura
 - Es un middleware entre el controller y el repositorio. Toma data del controller, hace validaciones y lógica de negocio y llama al repositorio para que manipule la información.
 
 ### Repository
-- Capa de interaccion con el modelo que performa operaciones con la base de datos. Es el componente que encapsula la lógica para acceder a la base de datos. 
+- Capa de interacción con el modelo que realiza operaciones con la base de datos. Es el componente que encapsula la lógica para acceder a la base de datos. 
 [Link](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/infrastructure-persistence-layer-design)
 
 

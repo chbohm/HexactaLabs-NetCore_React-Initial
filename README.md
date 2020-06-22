@@ -28,14 +28,14 @@ Seguir la [documentación](./Docs/instalacion_entorno.md) para instalar las herr
 1. [Introducción a Redux](./Docs/redux.md)
 1. [Introducción a NetCore](./Docs/netcore.md)
 
-## Levantando el Front end
+## Levantando el Frontend
 
 Para correr la app, solo hace falta estar situado en la carpeta `Stock.Web/client-app` y ejecutar `npm start` en la consola.
 
 Los request a la API se hacen a través del server de desarrollo que usa create-react-app, el cual se configura en el archivo
 `package.json` bajo la key `proxy`. Por defecto, se espera que la API corra en `localhost:5000`.
 
-## Levantando Backend
+## Levantando el Backend
 Inicialmente, debería funcionar ejecutar la siguiente instrucción en consola:
 
 ```

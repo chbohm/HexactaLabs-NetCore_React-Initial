@@ -56,7 +56,7 @@
       |- Repository
       DataContext.cs
 
- - Configuration Donde se configura la base de datos LiteDb
+ - Configuration donde se configura la base de datos LiteDb
  - Exceptions: Para manejo de excepciones
  - Interface: Donde se definen las interfaces del repositorio
  - Repository: Donde se define el repositorio base con los metodos que utilizan los servicios
