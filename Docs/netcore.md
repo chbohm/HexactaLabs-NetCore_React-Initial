@@ -1,4 +1,4 @@
-[Volver](./instalacion_entorno.md)
+[Volver](../README.md)
 
 # NET Core
 
