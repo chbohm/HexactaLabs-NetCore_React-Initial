@@ -7,6 +7,8 @@ Hexacta 2020
 Este curso está orientado a profesionales, no profesionales y recién iniciados en el desarrollo web. 
 Se trata de la implementación guiada de un sitio web sobre el manejo de stock de productos generales.
 
+La aplicación consistirá de un frontend desarrollado en React y un backend desarrollado en .Net core.
+
 El curso tiene diferentes etapas y nivelaciones con este formato:
 * __Initial__: Presentación de la aplicación básica, pasos para correrla localmente y planteo de la primer actividad: Backend con .NetCore.
 * __Level 1__: Se nivelará presentando una aplicación con las actividades de la etapa inicial completas. Planteo de la segunda actividad: Frontend con ReactJS.
@@ -20,6 +22,33 @@ El curso tiene diferentes etapas y nivelaciones con este formato:
 
 ## Instalación de entorno
 Seguir la [documentación](./Docs/instalacion_entorno.md) para instalar las herramientas necesarias y comprobar que todo esté funcionando correctamente.
+
+## Conceptos iniciales de las tecnologías a utilizar
+1. [Introducción a React](./react.md)
+1. [Introducción a Redux](./redux.md)
+1. [Introducción a NetCore](./netcore.md)
+
+## Levantando el Front end
+
+Para correr la app, solo hace falta estar situado en la carpeta `Stock.Web/client-app` y ejecutar `npm start` en la consola.
+
+Los request a la API se hacen a través del server de desarrollo que usa create-react-app, el cual se configura en el archivo
+`package.json` bajo la key `proxy`. Por defecto, se espera que la API corra en `localhost:5000`.
+
+## Levantando Backend
+Inicialmente, debería funcionar ejecutar la siguiente instrucción en consola:
+
+```
+dotnet run --project Stock.Api/Stock.Api.csproj
+```
+En [Docs/Prerequisitos Netcore](./Docs/prerequisitosnetcore.md) hay una guía de como ejecutar/debuggear el backend
+
+### Ingresando a la aplicación
+Una vez levantados el backend y el frontend, podemos ingresar a la aplicación:
+- Ir a http://localhost:3000 y usar la credencial user: admin, pass: admin
+
+También puede crearse un usuario por medio del botón "Sign up" en [Login.js](../Stock.Web/client-app/src/modules/auth/presentational/Login.js).
+
 
 # Actividad Inicial
 Para el trabajo inicial, se necesita crear un servicio backend que se conecte a la base de datos local para obtener información y brindar operaciones CRUD de la entidad __Provider__.
@@ -51,20 +80,8 @@ En la web se encuentra una sección llamada Tiendas en donde se presenta una pan
 
 Se recomienda utilizar esta entidad tanto del lado frontend como backend para realizar las actividades teniendo esta sección como referencia.
 
-## Front end
 
-Para correr la app, solo hace falta estar situado en la carpeta `Stock.Web/client-app` y ejecutar `npm start` en la consola.
 
-Los request a la API se hacen a través del server de desarrollo que usa create-react-app, el cual se configura en el archivo
-`package.json` bajo la key `proxy`. Por defecto, se espera que la API corra en `localhost:5000`.
-
-## Backend
-Inicialmente, debería funcionar ejecutar la siguiente instrucción en consola:
-
-```
-dotnet run --project Stock.Api/Stock.Api.csproj
-```
-En [Docs/Prerequisitos Netcore](./Docs/prerequisitosnetcore.md) hay una guía de como ejecutar/debuggear el backend
 
 ### ¿Tuviste algun problema? 
 - [Troubleshooting](./Docs/troubleshooting.md)
