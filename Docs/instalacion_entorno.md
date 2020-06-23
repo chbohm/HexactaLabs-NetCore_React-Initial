@@ -22,13 +22,15 @@ Debería quedar algo semejante a esto:
 
 ![folders](./images/folders_git.png)
 
+## Backend
+1. [Prerequisitos](./prerequisitosnetcore.md)
+1. [Estructura de Carpetas](./estructura-carpetas-netcore.md)
+1. [Troubleshooting](./troubleshooting.md)
+
 ## Frontend
 
 1. [Prerequisitos](./prerequisitos.md)
 1. [Estructura de Carpetas](./estructura-carpetas.md)
 
-## Backend
-1. [Prerequisitos](./prerequisitosnetcore.md)
-1. [Estructura de Carpetas](./estructura-carpetas-netcore.md)
-1. [Troubleshooting](./troubleshooting.md)
+
 
