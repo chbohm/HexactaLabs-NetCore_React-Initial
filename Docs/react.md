@@ -148,6 +148,6 @@ Para información más detallada. [State / Lifecycle Docs](https://reactjs.org/d
 
 
 ## Referencias
-[Documentación Oficial](https://es.reactjs.org/)
-Componentes Bootstrap4 para React [Reactstrap](https://reactstrap.github.io/)
-Para ver ejercicios de React. [Freecodecamp - React](https://learn.freecodecamp.org/front-end-libraries/react/)
+* [Documentación Oficial](https://es.reactjs.org/).
+* Componentes Bootstrap4 para React [Reactstrap](https://reactstrap.github.io/).
+* Para ver ejercicios de React. [Freecodecamp - React](https://learn.freecodecamp.org/front-end-libraries/react/).
