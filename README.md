@@ -25,7 +25,7 @@ Seguir la [documentación](./Docs/instalacion_entorno.md) para instalar las herr
 
 ## Conceptos iniciales de las tecnologías a utilizar
 1. [Introducción a React](./Docs/react.md)
-  1. [Introducción a Redux](./Docs/redux.md)
+    1. [Introducción a Redux](./Docs/redux.md)
 1. [Introducción a NetCore](./Docs/netcore.md)
 
 ## Levantando el Frontend
