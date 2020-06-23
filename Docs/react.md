@@ -4,7 +4,7 @@
 
 ## Introducción
 
-`React` es una librería de Javascript la cuál es usada para el desarrollo de interfaces de usuario.
+`React` es una librería de Javascript usada para el desarrollo de interfaces de usuario.
 Más información se puede encontrar en el siguiente link
 [React Docs](https://reactjs.org/docs/getting-started.html).
 
@@ -14,11 +14,11 @@ Más información se puede encontrar en el siguiente link
 
 El "Componente" es el principal principio de abstracción en React. Estos se pueden anidar mediante composición y cada uno puede contener toda lógica que se crea necesaria.
 
-Visto desde arriba, una aplicación de React es una jerarquía con forma de árbol, con la raíz siendo el punto de entrada, dónde los nodos intermedios son los distintos Componentes implementados, y las hojas son elementos válidos del DOM. La tarea de "plasmar" las hojas en el browser para que este muestre el resultado es una tarea de React, dejando en manos del desarrollador la preocupación de cómo o qué va en cada Componente.
+Visto desde arriba, una aplicación de React es una jerarquía con forma de árbol, con la raíz siendo el punto de entrada, dónde los cnodos intermedios son los distintos Componentes implementados, y las hojas son elementos válidos del DOM. La tarea de "plasmar" las hojas en el browser para que este muestre el resultado es una tarea de React, dejando en manos del desarrollador la preocupación de cómo o qué va en cada Componente.
 
 ## Component API
 
-Existen 2 tipos de componentes: Funcionales y de Clase
+Hay dos formas para escribir un componente: como una función o como una clase.
 
 ### Componentes funcionales
 
@@ -84,7 +84,7 @@ El objeto `props` **no debe** ser modificado, el Componente solo debe usarlos pa
 
 ### Componentes tipo Clase
 
-Todo elemento de clase debe extender a `Component`.
+Todo elemento de clase debe extender de `Component`.
 
 ```javascript
 import React, { Component } from 'react';
@@ -109,9 +109,10 @@ El único método requerido es `render()` y es donde se describe mediante JSX la
 
 ### Estado (State)
 
-Los componentes de tipo clase puede mantener estado interno, con cualquier información que sea pertinente para llevar a cabo su función y que esta no sea necesaria fuera del mismo. Por ejemplo, conservar los datos de un fetch para luego mostrarlos en el `render()`.
+Los componentes pueden mantener estado interno, con cualquier información que sea pertinente para llevar a cabo su función y que esta no sea necesaria fuera del mismo. Por ejemplo, conservar los datos de un fetch para luego mostrarlos en el `render()`.
 
-Para usar esta funcionalidad se debe declarar el estado inicial en el constructor del componente para luego poder ser actualizado usando el método de instancia `setState()`.
+
+Para usar esta funcionalidad en un compoenentede tipo clase se debe declarar el estado inicial en el constructor del componente para luego poder ser actualizado usando el método de instancia `setState()`.
 
 ```javascript
 import React from 'react';
@@ -132,6 +133,8 @@ class SomeComponent extends Component {
 ```
 
 El método `setState()` le dice a React que algo cambió en el estado del componente y este debe ser renderizado nuevamente.
+
+Aquí puedes encontrar la documentacion oficial sobre [manejo de estado y ciclo de vida](https://es.reactjs.org/docs/state-and-lifecycle.html).
 
 ### Métodos de ciclo de vida (Lifecycle Methods)
 
