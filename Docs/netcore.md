@@ -4,7 +4,7 @@
 
 ## Introducción
 
-[NET Core](https://docs.microsoft.com/es-es/dotnet/core/) es un Framework de código abierto creado por Microsoft, que nos proporciona herramientas para el desarrollo de aplicaciones multiplataforma lo que significa que podemos desarrollar y ejecutar una aplicación en varios sistemas operativos, como Linux, Windows, iOS. Se pueden desarrollar en .Net Core: aplicaciones de escritorio, aplicaciones web, aplicaciones móviles, juegos, inteligencia artificial, etc.
+[.NET Core](https://docs.microsoft.com/es-es/dotnet/core/) es un Framework de código abierto creado por Microsoft, que nos proporciona herramientas para el desarrollo de aplicaciones multiplataforma lo que significa que podemos desarrollar y ejecutar una aplicación en varios sistemas operativos, como Linux, Windows, iOS. Se pueden desarrollar en .Net Core: aplicaciones de escritorio, aplicaciones web, aplicaciones móviles, juegos, inteligencia artificial, etc.
 
 [ASP.NET Core](https://docs.microsoft.com/es-es/aspnet/core/?view=aspnetcore-3.1) es un marco de trabajo para desarrollar aplicaciones web multiplataforma compilado con .Net Core.
 
@@ -15,13 +15,13 @@ Una API (Application Programming Interface) es la interfaz que un software utili
 
 Un Web API es un API que se invoca a través del protocolo HTTP.  Se detalla solamente la forma en que cada rutina debe ser llevada a cabo y la funcionalidad que brinda, sin otorgar información acerca de cómo se lleva a cabo la tarea. La ventaja de usar HTTP es que es posible hacer peticiones desde cualquier lenguaje de programación, lo que hace a la Web un medio ideal para conectar aplicaciones. Para gestionar las solicitudes, una API web usa Controllers.
 
-Netcore posee un framework de trabajo para desarrollar las APIs. [Link](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)
+.Net core posee un framework de trabajo para desarrollar las APIs. [Link](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-3.1&tabs=visual-studio)
 
 ### Inyección de Dependencias
 Es una técnica en la que un objeto suministra las dependencias de otro. Está tecnica nos permite evitar la creación de objetos de servicio, para lograr legibilidad y reuso de código.
 La inyección de dependencias es una de las maneras de implementar [Inversión de Control o IoC](https://en.wikipedia.org/wiki/Inversion_of_control).
 
-Netcore posee soporte nativo para Inyección de Dependencias, el cual es utilizado en este proyecto. [Link](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1)
+.Net core posee soporte nativo para Inyección de Dependencias, el cual es utilizado en este proyecto. [Link](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.1)
 
 
 ## Tipos de Clases

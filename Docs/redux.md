@@ -85,7 +85,7 @@ Cualquier reducer puede actuar bajo cualquier tipo de acción. (relación muchos
 
 Para disminuir la complejidad y tamaño del código final, se dividen en varios reducers donde cada uno está encargado de una "rodaja" del estado global y luego se combinan todos en uno solo usando `combineReducer()`. Esta división está a cargo del desarrollador y depende mucho del problema a resolver.
 
-En la documentación de Redux, pueden encontrar la siguiente estrucutra de un reducer:
+En la documentación de Redux, pueden encontrar la siguiente estructura de un reducer:
 
 ```javascript
 const reducer = (state = initial, action) => {
@@ -139,6 +139,7 @@ El flujo de datos con Redux es estrictamente unidireccional.
 La aplicación no puede modificar el store directamente sino que lo debe hacer a través de las acciones.
 
 ## Referencias
+[Aquí](https://egghead.io/courses/getting-started-with-redux) puedes realizar un curso muy claro sobre redux realizado por el mismísimo creador de Redux: Dan Abramov.
 [Documentación de Redux - Inglés](https://redux.js.org/introduction/getting-started)
 [Documentación de Redux - Español](https://es.redux.js.org/)
 [Ejercicios Redux](https://learn.freecodecamp.org/front-end-libraries/redux/)

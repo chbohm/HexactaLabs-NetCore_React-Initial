@@ -25,3 +25,4 @@ A su vez, Atlassian tiene un tutorial bastante completo de como trabajar [Link](
 ![](./images/git_flow.png)
 
 
+[Git for ages 4 and  up](https://www.youtube.com/watch?v=1ffBJ4sVUb4) es una excelente clase de cómo funciona git en detalle. Si quieres dominar git rápidamente, éste video es de gran ayuda.
